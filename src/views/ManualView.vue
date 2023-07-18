@@ -5,8 +5,8 @@ import MainLayout from '@/layouts/MainLayout.vue';
 
 <template>
   <MainLayout>
-    <main class="home">
-      <h1>This is a home page</h1>
-    </main>
+    <div class="manual">
+      <h1>This is a manual page</h1>
+    </div>
   </MainLayout>
 </template>
