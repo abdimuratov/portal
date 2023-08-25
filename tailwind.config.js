@@ -2,7 +2,17 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'infinite-slide': 'infinite-slide 20s linear infinite',
+      },
+      keyframes: {
+        'infinite-slide': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+    },
     screens: {
       '2xl': { max: '1535px' },
       // => @media (max-width: 1535px) { ... }

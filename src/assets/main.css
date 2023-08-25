@@ -11,9 +11,6 @@ body {
   @apply text-neutral-100 bg-neutral-800;
 }
 
-.image-fade {
-}
-
 .scroll-inline {
   @apply overflow-x-auto overscroll-x-contain snap-x snap-mandatory [&>*]:md:snap-start pb-2;
 }

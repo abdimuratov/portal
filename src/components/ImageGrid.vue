@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div ref="gridBlock" class="mt-5 grid grid-cols-[repeat(3,minmax(0,1fr))] gap-x-5 lg:grid-cols-[repeat(2,minmax(0,1fr))] xs:grid-cols-[repeat(1,minmax(0,1fr))]">
+  <div ref="gridBlock" class="grid grid-cols-[repeat(3,minmax(0,1fr))] gap-x-5 lg:grid-cols-[repeat(2,minmax(0,1fr))] xs:grid-cols-[repeat(1,minmax(0,1fr))]">
     <div class="grid grid-cols-[minmax(0,1fr)] gap-y-5">
       <div class="bg-slate-500">
         <img
